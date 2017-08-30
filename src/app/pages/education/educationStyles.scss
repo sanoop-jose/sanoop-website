@@ -1,0 +1,35 @@
+.education-timeline-wrapper {
+	.year {
+		 width: 50px;
+			padding-right: 15px;
+	}
+	.course {
+		padding-left: 15px;
+	}
+	.education-timeline {
+		.timeline-node {
+			width: 15px;
+			height: 15px;
+			border-radius: 50%;
+			border: 1px solid #337FFF;
+			.dot {
+				width: 11px;
+				height: 11px;
+				border-radius: 50%;
+				background: #337FFF;
+			}
+		}
+	}
+}
+.timeline-separator {
+	width: 15px;
+	height: 40px;
+	&.sl {
+		padding-left: 65px;
+	}
+	.separator-line {
+		width: 2px;
+		height: 40px;
+		background: #337FFF;
+	}
+}

@@ -1,0 +1,101 @@
+$p10 : #50FC22;
+$p9 : #61E021;
+$p8 : #72C520;
+$p7 : #83A920;
+$p6 : #948E1F;
+$p5 : #A6721F;
+$p4 : #B7571E;
+$p3 : #C83B1E;
+$p2 : #D9201D;
+$p1 : #EB051D;
+
+
+.p-section {
+	padding-bottom: 5px;
+	.p-title {
+		border-bottom: 1px solid #000;
+		padding-bottom: 2px;
+	}
+
+	.p-1 {
+		border: 1px solid $p1;
+		.skill-progress {
+			background: $p1;
+			width: 10%;
+		}
+	}
+	.p-2 {
+		border: 1px solid $p2;
+		.skill-progress {
+			background: $p2;
+			width: 20%;
+		}
+	}.p-3 {
+		border: 1px solid $p3;
+		.skill-progress {
+			background: $p3;
+			width: 30%;
+		}
+	}.p-4 {
+		border: 1px solid $p4;
+		.skill-progress {
+			background: $p4;
+			width: 40%;
+		}
+	}.p-5 {
+		border: 1px solid $p5;
+		.skill-progress {
+			background: $p5;
+			width: 50%;
+		}
+	}.p-6 {
+		border: 1px solid $p6;
+		.skill-progress {
+			background: $p6;
+			width: 60%;
+		}
+	}.p-7 {
+		border: 1px solid $p7;
+		.skill-progress {
+			background: $p7;
+			width: 70%;
+		}
+	}.p-8 {
+		border: 1px solid $p8;
+		.skill-progress {
+			background: $p8;
+			width: 80%;
+		}
+	}.p-9 {
+		border: 1px solid $p9;
+		.skill-progress {
+			background: $p9;
+			width: 90%;
+		}
+	}.p-10 {
+		border: 1px solid $p10;
+		.skill-progress {
+			background: $p10;
+			width: 100%;
+		}
+	}
+
+	.skill-section {
+		padding-bottom: 25px;
+		.skill-wrapper {
+			padding-bottom: 10px;
+			.skill-name {
+				padding-bottom: 5px;
+				font-size: 12px;
+			}
+			.skill-status {
+				height: 8px;
+				border-radius: 10px;
+				.skill-progress {
+					height: 8px;
+				}
+			}
+		}
+	}
+}
+

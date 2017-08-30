@@ -1,0 +1,44 @@
+<div class="loading" [ngClass]="[dataReady ? 'hidden' : '']">
+	<div class="loader"></div>
+</div>
+<section class="main-section hbox space-between">
+	<div class="nav-section card flex flex-column flex-space-between static">
+		<div>
+			<div class="profile-image-wrapper">
+				<img src="../assets/images/profile.jpg" />
+			</div>
+			<nav class='navbar'>
+				<a class="nav-item flex-center flex-space-between" title="Home" routerLink="/about" routerLinkActive="active">
+				<span>ABOUT ME</span>
+				<i class="fa fa-user" aria-hidden="true"></i>
+			</a>
+				<a class="nav-item flex-center flex-space-between" title="Home" routerLink="/skills" routerLinkActive="active">
+				<span>PROFESSIONAL SKILLS</span>
+				<i class="fa fa-cloud" aria-hidden="true"></i>
+			</a>
+
+				<a class="nav-item flex-center flex-space-between" title="About" routerLink="/education" routerLinkActive="active">
+				<span>EDUCATION</span>
+				<i class="fa fa-graduation-cap" aria-hidden="true"></i>
+			</a>
+				<a class="nav-item flex-center flex-space-between" title="Contact" routerLink="/contact" routerLinkActive="active">
+				<span>CONTACT</span>
+				<i class="fa fa-phone" aria-hidden="true"></i>
+			</a>
+			</nav>
+		</div>
+		<div class="footer">
+			<div class="social-links flex-center">
+				<a href="https://www.facebook.com/sanoopthadathil" target="_blank" class="link-btn flex-center"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+				<a href="https://twitter.com/sanuthadathil" target="_blank" class="link-btn flex-center"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+				<a href="https://www.linkedin.com/in/sanoop-jose-t-7aa66149/" target="_blank" class="link-btn flex-center"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+				<a href="https://github.com/sanoop-jose" target="_blank" class="link-btn flex-center"><i class="fa fa-github" aria-hidden="true"></i></a>
+				<a href="https://plus.google.com/u/0/109292086850927061428" target="_blank" class="link-btn flex-center"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+			</div>
+			<div class="footer-text flex-center">© 2017 beckalpha</div>
+		</div>
+	</div>
+	<div class="page-section card static">
+		<router-outlet></router-outlet>
+	</div>
+</section>

@@ -1,0 +1,22 @@
+.my-name-wraper {
+	.name {
+		width: 350px;
+    height: 80px;
+	}
+}
+.work-area-wrapper {
+ .prtf-card {
+		margin-bottom: 20px;
+		height: 410px;
+		&:first-child  {
+			margin-right: 20px;
+		}
+		img {
+			width: 450px;
+    	height: 300px;
+		}
+		.work-area-name {
+			padding: 20px 0;
+		}
+	}
+}
